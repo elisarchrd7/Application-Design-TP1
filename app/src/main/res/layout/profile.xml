@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="132dp"
+            android:fontWeight="700"
+            android:lineHeight="48dp"
+            android:text="Find your suitable watch now."
+            android:textColor="#1B153D"
+            android:textSize="38dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTitle2"
+            android:text="Smart Watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontWeight="600"
+            android:lineHeight="24dp"
+            android:textColor="#5B41FF"
+            android:textSize="17dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="30dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:id="@+id/rectangleContainer"
+            android:layout_width="160dp"
+            android:layout_height="217dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="315dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="8dp"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/imageFrame"
+                android:layout_width="141dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/frame_4" />
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:id="@+id/imageAppleWatch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apple_watch_1" />
+
+            <LinearLayout
+                android:id="@+id/transparentLayout"
+                android:layout_width="96dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:layout_marginTop="125dp">
+
+                <TextView
+                    android:id="@+id/textAppleWatch"
+                    android:layout_width="96dp"
+                    android:layout_height="19dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:fontWeight="600"
+                    android:lineHeight="19dp"
+                    android:text="Apple Watch"
+                    android:textColor="#1B153D"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textSeries"
+                    android:layout_width="46dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="8dp"
+                    android:fontWeight="500"
+                    android:lineHeight="14dp"
+                    android:text="Series 7"
+                    android:textColor="#9095A6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textPrice"
+                    android:layout_width="39dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="13dp"
+                    android:fontWeight="500"
+                    android:lineHeight="19dp"
+                    android:text="$799"
+                    android:textColor="#5B41FF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rectangleContainer4"
+            android:layout_width="160dp"
+            android:layout_height="217dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="560dp"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:elevation="8dp">
+
+
+            <ImageView
+                android:id="@+id/imageFrame4"
+                android:layout_width="141dp"
+                android:layout_height="101dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/frame_4__4_" />
+
+            <ImageView
+                android:id="@+id/imageAppleWatch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apple_watch_4" />
+
+            <LinearLayout
+                android:id="@+id/transparentLayout4"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="125dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textAppleWatch4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:fontWeight="600"
+                    android:lineHeight="19dp"
+                    android:text="Amazfit Bip U"
+                    android:textColor="#1B153D"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textSeries_4"
+                    android:layout_width="57dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="8dp"
+                    android:fontWeight="500"
+                    android:lineHeight="14dp"
+                    android:text="Pro Series"
+                    android:textColor="#9095A6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textPrice4"
+                    android:layout_width="39dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="13dp"
+                    android:fontWeight="500"
+                    android:lineHeight="19dp"
+                    android:text="$599"
+                    android:textColor="#5B41FF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rectangleContainer3"
+            android:layout_width="160dp"
+            android:layout_height="217dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="560dp"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="8dp"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/imageFrame3"
+                android:layout_width="141dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/frame_4__3_" />
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:id="@+id/imageAppleWatch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apple_watch_3" />
+
+            <LinearLayout
+                android:id="@+id/transparentLayout3"
+                android:layout_width="96dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:layout_marginTop="125dp">
+
+                <TextView
+                    android:id="@+id/textAppleWatch3"
+                    android:layout_width="96dp"
+                    android:layout_height="19dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:fontWeight="600"
+                    android:lineHeight="19dp"
+                    android:text="Mi Watch"
+                    android:textColor="#1B153D"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textSeries_3"
+                    android:layout_width="55dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="8dp"
+                    android:fontWeight="500"
+                    android:lineHeight="14dp"
+                    android:text="All Series"
+                    android:textColor="#9095A6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textPrice3"
+                    android:layout_width="39dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="13dp"
+                    android:fontWeight="500"
+                    android:lineHeight="19dp"
+                    android:text="$299"
+                    android:textColor="#5B41FF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rectangleContainer2"
+            android:layout_width="160dp"
+            android:layout_height="217dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="315dp"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="8dp"
+            android:elevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/imageFrame2"
+                android:layout_width="141dp"
+                android:layout_height="101dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/frame_4__2_" />
+
+            <ImageView
+                android:id="@+id/imageAppleWatch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apple_watch_2" />
+
+            <LinearLayout
+                android:id="@+id/transparentLayout2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="125dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textAppleWatch2"
+                    android:layout_width="101dp"
+                    android:layout_height="19dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:fontWeight="600"
+                    android:lineHeight="19dp"
+                    android:text="Galaxy Watch"
+                    android:textColor="#1B153D"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textSeries_2"
+                    android:layout_width="46dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="8dp"
+                    android:fontWeight="500"
+                    android:lineHeight="14dp"
+                    android:text="Series 4"
+                    android:textColor="#9095A6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textPrice2"
+                    android:layout_width="39dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="13dp"
+                    android:fontWeight="500"
+                    android:lineHeight="19dp"
+                    android:text="$599"
+                    android:textColor="#5B41FF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
